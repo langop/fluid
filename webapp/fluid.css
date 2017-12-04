@@ -19,7 +19,7 @@ p, a, label, div{font-size:14px;}
 
 .fluid-step span.setB{
 	background: #6cf;
-	border-left: 1px solid red;
+	border-left: 1px solid black;
 	display: inline-block;
 	transition: all ease 250ms;
 }
