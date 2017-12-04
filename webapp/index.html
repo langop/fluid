@@ -1,0 +1,36 @@
+<!DOCtype>
+<html lang="cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiable" content="IE-Edge,chrome=1">
+	<link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    
+	<title>Fluid</title>
+	<link rel="stylesheet" href="fluid.css">	
+</head>
+<body>
+	<div class="fluid-head">
+		<h1>Welcome the Fluid.</h1>
+		<label class="btn-sharp bg-fluid ft-white" for="fluid-file" role="click">二进制化</label>	
+		<input id="fluid-file" type="file" accept="audio/mpeg,image/jpeg,image/png" onchange="Fluid.changeFileRead(this)"> 
+	</div>
+	<div class="fluid-step">
+		<!-- <img width=100% src="image/ok.jpg"> -->
+		<div id="showIt"></div>
+	</div>
+	
+	<script src="fluid.js"></script>
+	<script>
+		document.onreadystatechange = function(){
+			if(document.readyState == 'complete'){
+				alert('DOMcontent loaded.')
+			}
+		}
+		Fluid.config({
+			showClass: 'setB',
+			continuous: true
+		});
+	</script>
+</body>
+</html>

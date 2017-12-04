@@ -1,0 +1,33 @@
+p, a, label, div{font-size:14px;}
+*[role=click]{cursor: pointer;}
+
+/* button sharp */
+.btn-sharp{ width: 100px; height: 30px; line-height: 30px; padding: 8px;}
+
+/* font color */
+.ft-black{ color: black;}
+.ft-white{ color: white;}
+.ft-fluid{ color: #199312;}
+
+/* background color */
+.bg-black{ background-color: black;}
+.bg-white{ background-color: white;}
+.bg-fluid{ background-color: #199312;}
+
+.fluid-head {text-align: center; padding: 20px 0;}
+#fluid-file {position: absolute; clip: rect(0,0,0,0);}
+
+.fluid-step span.setB{
+	background: #6cf;
+	border-left: 1px solid red;
+	display: inline-block;
+	transition: all ease 250ms;
+}
+.fluid-step span.setH{
+	width:1px;
+	height:1px; 
+	background: #6cf;
+	border-top: 1px solid red;
+	display: inline-block;
+	transition: all ease 250ms;
+}
