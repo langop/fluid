@@ -21,8 +21,7 @@ var Fluid = (function(fluid) {
         _clone.style.visibility = 'visible';
         _clone.innerHTML = h;
         h = Math.abs(h);
-        _clone.style.backgroundColor = 'rgb(' + h + ', ' + (255 - h) + ',' + h
-            + ')';
+        _clone.style.backgroundColor = 'rgb(' + h + ', ' + (255 - h) + ',' + h + ')';
     }
     /* 样式部分 */
 
@@ -88,7 +87,6 @@ var Fluid = (function(fluid) {
         reader.readAsArrayBuffer(file);
         reader.onload = function() {
             var dv = new DataView(reader.result);
-            console.log(dv.byteLength);
             setTimeout(dealChain, 0, 1, dv);
         };
     }
