@@ -10,9 +10,8 @@ p, a, label, div{font-size:14px;}
 .ft-fluid{ color: #199312;}
 
 /* background color */
-.bg-black{ background-color: black;}
+.bg-mine{ background-color: #FF9900;}
 .bg-white{ background-color: white;}
-.bg-fluid{ background-color: #199312;}
 
 .fluid-head {text-align: center; padding: 20px 0;}
 #fluid-file {position: absolute; clip: rect(0,0,0,0);}
